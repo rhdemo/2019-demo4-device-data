@@ -7,16 +7,19 @@ This repository contains sample data for demo 4 and a function for converting da
 ```
 $ git clone $THIS_REPO_URL demo4-motion-data
 $ cd demo4-motion-data
+```
+
+This will use the existing 15 seconds of sample data and perform a conversion to the wire format:
+
+```
 $ npm start
 ```
 
-This will use the existing 15 seconds of sample data and perform a conversion to the wire format.
+This will convert the sample data, drop everything after the first second, i.e it takes just a 1 second sample.
 
 ```
 npm start 1
 ```
-
-This will convert the sample data, drop everything after the first second, i.e it takes just a 1 second sample.
 
 If you'd like to use your own data simply replace the contents of the `motion.original` and `orientation.original` files.
 
