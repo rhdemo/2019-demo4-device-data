@@ -22,6 +22,8 @@ If you'd like to use your own data simply replace the contents of the `motion.or
 
 ## Data Format
 
+*NOTE: Timing is not discussed here. We may need to include a millisecond timestamp with data, or agree on a fixed frame rate so delta time can be determined.*
+
 The format we capture data on the device is as follows for a motion event:
 
 ```json
