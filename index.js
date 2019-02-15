@@ -60,8 +60,8 @@ const compressedStats = {
 
 console.log(`
 Orientation before: ${originalStats.orientation.size / 1024}kb
-Orientation after: ${originalStats.orientation.size / 1024}kb
+Orientation after: ${compressedStats.orientation.size / 1024}kb
 
-Motion acceleration before: ${compressedStats.motion.size / 1024}kb
+Motion acceleration before: ${originalStats.motion.size / 1024}kb
 Motion acceleration after: ${compressedStats.motion.size / 1024}kb
 `)
