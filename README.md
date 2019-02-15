@@ -82,7 +82,7 @@ Orientation can be similar, `[alpha, beta, gamma]`. Below we show two captured e
 
 ## Data Visiualisation
 
-Here are some sample graphs generated from motion data. It's useful to familiarise yourself with the representation of the axes in the following image to understand the graphs.
+Here are some sample graphs generated from motion data over approximately 10 seconds. It's useful to familiarise yourself with the representation of the axes in the following image to understand the graphs.
 
 ![Accelerometer Axes Illustration](https://developers.google.com/web/fundamentals/native-hardware/device-orientation/images/axes.png)
 
